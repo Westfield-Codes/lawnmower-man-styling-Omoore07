@@ -1,29 +1,67 @@
 body {
+  background-color:#008080;
+  margin-top: 200px;
+
 }
 .box{
   width:500px;
   height:150px;
-  margin:0 auto;
+  margin: auto;
+  background-color:#C0C0C0;
+  border:1px black solid;
+
 }
 
 .title button{
   width:15px;
   height:15px;
+  float:right;
+  font-size:11px;
+  text-align: center;
+  padding:1px;
+  margin-right:5px;
+  
+}
+
+.title p {
+  background-color: #001180;
+  color:white;
+  margin:auto;
+  width:99%;
+  margin-top:3px;
+  
 }
 
 .body {
+  text-align: center;
+  background-image: url(key.png);
+  background-repeat: no-repeat;
+  background-position:15px -2px;
+ 
+  
+  
 }
 
 #leftside {
-  width:375px;
+  width:100%;
+  text-align: center;
 }
 
 #dialogs {
-  width:240px;
+  width:300px;
+  margin-left:100px;
 }
 
 .body p {
+  
+ 
+
 }
+
+
+
+
+
 
 
 #buttons {
@@ -35,11 +73,15 @@ body {
   width:80px;
 
 .body button{
+
 }
 
 label {
+
 }
 
 input {
   width:150px;
 }
+
+
