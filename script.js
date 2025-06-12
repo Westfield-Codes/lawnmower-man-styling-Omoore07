@@ -1,10 +1,12 @@
-function setup(){
+
 let ok = document.createElement("button");
-ok.id="ok";
-button.appendChild("ok");
 ok.innerHTML = "ok";
-let document.getElementByID("ok");
+let buttons = document.getElementById("buttons");
+buttons.appendChild(ok);
 let cancel = document.createElement("button");
+cancel.innerHTML ="cancel";
+buttons.appendChild(cancel);
+
 
 
 
@@ -13,4 +15,4 @@ let cancel = document.createElement("button");
 // createElement
 // getElementByID
 // innerHTML
-}
+
