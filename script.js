@@ -1,10 +1,10 @@
 
 let ok = document.createElement("button");
-ok.innerHTML = "ok";
+ok.innerHTML = "OK";
 let buttons = document.getElementById("buttons");
 buttons.appendChild(ok);
 let cancel = document.createElement("button");
-cancel.innerHTML ="cancel";
+cancel.innerHTML ="Cancel";
 buttons.appendChild(cancel);
 
 
